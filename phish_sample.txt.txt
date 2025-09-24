@@ -1,0 +1,26 @@
+Return-Path: <support@paypa1.com>
+Received: from mail-123.example-ru.com (mail-123.example-ru.com [185.28.196.12])
+  by mx.examplemail.com with ESMTPS id abc123
+  Wed, 24 Sep 2025 04:12:00 +0000
+Authentication-Results: mx.examplemail.com;
+  spf=fail (mx.examplemail.com: domain of support@paypa1.com does not designate 185.28.196.12 as permitted sender) smtp.mailfrom=support@paypa1.com;
+  dkim=none;
+  dmarc=fail header.from=paypal.com;
+From: "PayPal" <support@paypa1.com>
+To: student@yourdomain.com
+Subject: Urgent: Your PayPal account will be suspended — Verify now
+Date: Wed, 24 Sep 2025 04:11:30 +0000
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Message-ID: <123456789@mail-123.example-ru.com>
+
+Dear Customer,
+
+We detected suspicious activity on your PayPal account. To avoid suspension, please verify your account immediately:
+
+Click here to verify: http://secure-paypal.verify-account-login.ru/confirm
+
+Failure to verify within 24 hours will result in permanent suspension.
+
+Regards,
+PayPal Support
